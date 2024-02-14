@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  box-sizing: border-box;
+}
+
+.hilang {
+  display: none;
+}
+
+.trans {
+  @apply transition-all ease-out duration-1000;
+}
+
+.overlay {
+  @apply block;
+}
