@@ -24,7 +24,7 @@
       >
         <!-- Buka Undangan -->
         <div
-          class="w-[90%] lg:w-[60%] h-[60%] absolute right-0 left-0 mx-auto bottom-10 bg-black rounded-xl bg-opacity-50 text-white shadow-lg py-10"
+          class="w-[90%] lg:w-[60%] h-[60%] absolute right-0 left-0 mx-auto bottom-16 bg-black rounded-xl bg-opacity-50 text-white shadow-lg py-10"
         >
           <div
             class="w-full relative text-center"
@@ -55,7 +55,7 @@
           </div>
 
           <div
-            class="w-[49%] lg:w-[20%] group hover:bg-hijau-0 border bg-hijaukuning-0 text-center rounded-md mt-5 mx-auto p-2 flex justify-around items-center"
+            class="w-[50%] lg:w-[20%] group hover:bg-hijau-0 border bg-hijaukuning-0 text-center rounded-md mt-5 mx-auto p-2 flex justify-around items-center"
             data-aos="zoom-in-up"
             data-aos-duration="500"
           >
@@ -802,6 +802,7 @@
     </div>
 
     <script>
+      const utama = document.querySelector("#utama");
       window.addEventListener("scroll", function () {
         const footer = document.querySelector("#footer");
         const navbar = document.querySelector("#navbar");
@@ -872,6 +873,7 @@
 
         window.onscroll = function () {
           window.scrollTo(screenTop, screenLeft);
+          navbar.style.display = "none";
         };
       }
 

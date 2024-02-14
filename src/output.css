@@ -634,6 +634,10 @@ video {
   top: 2rem;
 }
 
+.bottom-16 {
+  bottom: 4rem;
+}
+
 .z-50 {
   z-index: 50;
 }
@@ -788,8 +792,8 @@ video {
   width: 20%;
 }
 
-.w-\[50\%\] {
-  width: 50%;
+.w-\[49\%\] {
+  width: 49%;
 }
 
 .w-\[90\%\] {
@@ -808,8 +812,8 @@ video {
   width: 100%;
 }
 
-.w-\[49\%\] {
-  width: 49%;
+.w-\[50\%\] {
+  width: 50%;
 }
 
 .rotate-180 {
