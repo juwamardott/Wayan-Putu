@@ -933,14 +933,6 @@ video {
   background-image: url('../img/bg-3fix.png');
 }
 
-.bg-\[url\(\'\/img\/bg-3fix\.png\'\)\] {
-  background-image: url('/img/bg-3fix.png');
-}
-
-.bg-\[url\(\'\.\.\/img\/bg-4fix\.png\'\)\] {
-  background-image: url('../img/bg-4fix.png');
-}
-
 .bg-cover {
   background-size: cover;
 }
